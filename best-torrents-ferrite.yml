@@ -1,0 +1,564 @@
+name: Best Torrents Polish Sources
+author: Best Torrents Community
+sources:
+  - name: Best Torrents – Filmy Polskie
+    version: 1
+    minVersion: '0.7'
+    website: https://best-torrents.com
+    about: >-
+      Polskie filmy z Best Torrents (RSS)
+    tags:
+      - name: Polish
+        color: dc143c
+      - name: Movies
+    rssParser:
+      rssUrl: https://best-torrents.com/rss/kategoria/Filmy%20Polskie
+      items: item
+      title:
+        query: title
+        attribute: text
+      magnetLink:
+        query: magnetURI
+        attribute: text
+      size:
+        query: size
+        attribute: text
+
+  - name: Best Torrents – Filmy/Bajki
+    version: 1
+    minVersion: '0.7'
+    website: https://best-torrents.com
+    about: >-
+      Filmy animowane, bajki z Best Torrents (RSS)
+    tags:
+      - name: Polish
+        color: dc143c
+      - name: Movies
+      - name: Animation
+    rssParser:
+      rssUrl: https://best-torrents.com/rss/kategoria/Filmy/Bajki
+      items: item
+      title:
+        query: title
+        attribute: text
+      magnetLink:
+        query: magnetURI
+        attribute: text
+      size:
+        query: size
+        attribute: text
+
+  - name: Best Torrents – Filmy XviD/DivX
+    version: 1
+    minVersion: '0.7'
+    website: https://best-torrents.com
+    about: >-
+      Filmy XviD/DivX z Best Torrents (RSS)
+    tags:
+      - name: Polish
+        color: dc143c
+      - name: Movies
+    rssParser:
+      rssUrl: https://best-torrents.com/rss/kategoria/Filmy%20XviD/DivX
+      items: item
+      title:
+        query: title
+        attribute: text
+      magnetLink:
+        query: magnetURI
+        attribute: text
+      size:
+        query: size
+        attribute: text
+
+  - name: Best Torrents – Filmy DVD
+    version: 1
+    minVersion: '0.7'
+    website: https://best-torrents.com
+    about: >-
+      Filmy DVD z Best Torrents (RSS)
+    tags:
+      - name: Polish
+        color: dc143c
+      - name: Movies
+    rssParser:
+      rssUrl: https://best-torrents.com/rss/kategoria/Filmy%20DVD
+      items: item
+      title:
+        query: title
+        attribute: text
+      magnetLink:
+        query: magnetURI
+        attribute: text
+      size:
+        query: size
+        attribute: text
+
+  - name: Best Torrents – Filmy x264
+    version: 1
+    minVersion: '0.7'
+    website: https://best-torrents.com
+    about: >-
+      Filmy x264 z Best Torrents (RSS)
+    tags:
+      - name: Polish
+        color: dc143c
+      - name: Movies
+    rssParser:
+      rssUrl: https://best-torrents.com/rss/kategoria/Filmy%20x264
+      items: item
+      title:
+        query: title
+        attribute: text
+      magnetLink:
+        query: magnetURI
+        attribute: text
+      size:
+        query: size
+        attribute: text
+
+  - name: Best Torrents – Filmy 4K UHD
+    version: 1
+    minVersion: '0.7'
+    website: https://best-torrents.com
+    about: >-
+      Filmy 4K UHD z Best Torrents (RSS)
+    tags:
+      - name: Polish
+        color: dc143c
+      - name: Movies
+      - name: 4K
+    rssParser:
+      rssUrl: https://best-torrents.com/rss/kategoria/Filmy%204K%20UHD
+      items: item
+      title:
+        query: title
+        attribute: text
+      magnetLink:
+        query: magnetURI
+        attribute: text
+      size:
+        query: size
+        attribute: text
+
+  - name: Best Torrents – Filmy HD
+    version: 1
+    minVersion: '0.7'
+    website: https://best-torrents.com
+    about: >-
+      Filmy HD z Best Torrents (RSS)
+    tags:
+      - name: Polish
+        color: dc143c
+      - name: Movies
+      - name: HD
+    rssParser:
+      rssUrl: https://best-torrents.com/rss/kategoria/Filmy%20HD
+      items: item
+      title:
+        query: title
+        attribute: text
+      magnetLink:
+        query: magnetURI
+        attribute: text
+      size:
+        query: size
+        attribute: text
+
+  - name: Best Torrents – Filmy x265 HEVC
+    version: 1
+    minVersion: '0.7'
+    website: https://best-torrents.com
+    about: >-
+      Filmy x265 HEVC z Best Torrents (RSS)
+    tags:
+      - name: Polish
+        color: dc143c
+      - name: Movies
+    rssParser:
+      rssUrl: https://best-torrents.com/rss/kategoria/Filmy%20x265%20HEVC
+      items: item
+      title:
+        query: title
+        attribute: text
+      magnetLink:
+        query: magnetURI
+        attribute: text
+      size:
+        query: size
+        attribute: text
+
+  - name: Best Torrents – Filmy 3D
+    version: 1
+    minVersion: '0.7'
+    website: https://best-torrents.com
+    about: >-
+      Filmy 3D z Best Torrents (RSS)
+    tags:
+      - name: Polish
+        color: dc143c
+      - name: Movies
+      - name: 3D
+    rssParser:
+      rssUrl: https://best-torrents.com/rss/kategoria/Filmy%203D
+      items: item
+      title:
+        query: title
+        attribute: text
+      magnetLink:
+        query: magnetURI
+        attribute: text
+      size:
+        query: size
+        attribute: text
+
+  - name: Best Torrents – Filmy TS/CAM
+    version: 1
+    minVersion: '0.7'
+    website: https://best-torrents.com
+    about: >-
+      Filmy TS/CAM z Best Torrents (RSS)
+    tags:
+      - name: Polish
+        color: dc143c
+      - name: Movies
+      - name: Cam
+    rssParser:
+      rssUrl: https://best-torrents.com/rss/kategoria/Filmy%20TS/CAM
+      items: item
+      title:
+        query: title
+        attribute: text
+      magnetLink:
+        query: magnetURI
+        attribute: text
+      size:
+        query: size
+        attribute: text
+
+  - name: Best Torrents – TV
+    version: 1
+    minVersion: '0.7'
+    website: https://best-torrents.com
+    about: >-
+      Programy TV z Best Torrents (RSS)
+    tags:
+      - name: Polish
+        color: dc143c
+      - name: TV
+    rssParser:
+      rssUrl: https://best-torrents.com/rss/kategoria/TV
+      items: item
+      title:
+        query: title
+        attribute: text
+      magnetLink:
+        query: magnetURI
+        attribute: text
+      size:
+        query: size
+        attribute: text
+
+  - name: Best Torrents – Programy
+    version: 1
+    minVersion: '0.7'
+    website: https://best-torrents.com
+    about: >-
+      Programy komputerowe z Best Torrents (RSS)
+    tags:
+      - name: Polish
+        color: dc143c
+      - name: Software
+    rssParser:
+      rssUrl: https://best-torrents.com/rss/kategoria/Programy
+      items: item
+      title:
+        query: title
+        attribute: text
+      magnetLink:
+        query: magnetURI
+        attribute: text
+      size:
+        query: size
+        attribute: text
+
+  - name: Best Torrents – Gry
+    version: 1
+    minVersion: '0.7'
+    website: https://best-torrents.com
+    about: >-
+      Gry PC z Best Torrents (RSS)
+    tags:
+      - name: Polish
+        color: dc143c
+      - name: Games
+    rssParser:
+      rssUrl: https://best-torrents.com/rss/kategoria/Gry
+      items: item
+      title:
+        query: title
+        attribute: text
+      magnetLink:
+        query: magnetURI
+        attribute: text
+      size:
+        query: size
+        attribute: text
+
+  - name: Best Torrents – Konsole
+    version: 1
+    minVersion: '0.7'
+    website: https://best-torrents.com
+    about: >-
+      Gry na konsole z Best Torrents (RSS)
+    tags:
+      - name: Polish
+        color: dc143c
+      - name: Games
+      - name: Console
+    rssParser:
+      rssUrl: https://best-torrents.com/rss/kategoria/Konsole
+      items: item
+      title:
+        query: title
+        attribute: text
+      magnetLink:
+        query: magnetURI
+        attribute: text
+      size:
+        query: size
+        attribute: text
+
+  - name: Best Torrents – Muzyka
+    version: 1
+    minVersion: '0.7'
+    website: https://best-torrents.com
+    about: >-
+      Muzyka z Best Torrents (RSS)
+    tags:
+      - name: Polish
+        color: dc143c
+      - name: Music
+    rssParser:
+      rssUrl: https://best-torrents.com/rss/kategoria/Muzyka
+      items: item
+      title:
+        query: title
+        attribute: text
+      magnetLink:
+        query: magnetURI
+        attribute: text
+      size:
+        query: size
+        attribute: text
+
+  - name: Best Torrents – Teledyski
+    version: 1
+    minVersion: '0.7'
+    website: https://best-torrents.com
+    about: >-
+      Teledyski z Best Torrents (RSS)
+    tags:
+      - name: Polish
+        color: dc143c
+      - name: Music
+      - name: Videos
+    rssParser:
+      rssUrl: https://best-torrents.com/rss/kategoria/Teledyski
+      items: item
+      title:
+        query: title
+        attribute: text
+      magnetLink:
+        query: magnetURI
+        attribute: text
+      size:
+        query: size
+        attribute: text
+
+  - name: Best Torrents – Książki
+    version: 1
+    minVersion: '0.7'
+    website: https://best-torrents.com
+    about: >-
+      Książki z Best Torrents (RSS)
+    tags:
+      - name: Polish
+        color: dc143c
+      - name: Books
+    rssParser:
+      rssUrl: https://best-torrents.com/rss/kategoria/Ksi%C4%85%C5%BCki
+      items: item
+      title:
+        query: title
+        attribute: text
+      magnetLink:
+        query: magnetURI
+        attribute: text
+      size:
+        query: size
+        attribute: text
+
+  - name: Best Torrents – AudioBooki
+    version: 1
+    minVersion: '0.7'
+    website: https://best-torrents.com
+    about: >-
+      Audiobooki z Best Torrents (RSS)
+    tags:
+      - name: Polish
+        color: dc143c
+      - name: Books
+      - name: Audio
+    rssParser:
+      rssUrl: https://best-torrents.com/rss/kategoria/AudioBooki
+      items: item
+      title:
+        query: title
+        attribute: text
+      magnetLink:
+        query: magnetURI
+        attribute: text
+      size:
+        query: size
+        attribute: text
+
+  - name: Best Torrents – Komiksy
+    version: 1
+    minVersion: '0.7'
+    website: https://best-torrents.com
+    about: >-
+      Komiksy z Best Torrents (RSS)
+    tags:
+      - name: Polish
+        color: dc143c
+      - name: Comics
+    rssParser:
+      rssUrl: https://best-torrents.com/rss/kategoria/Komiksy
+      items: item
+      title:
+        query: title
+        attribute: text
+      magnetLink:
+        query: magnetURI
+        attribute: text
+      size:
+        query: size
+        attribute: text
+
+  - name: Best Torrents – Linux/Mac
+    version: 1
+    minVersion: '0.7'
+    website: https://best-torrents.com
+    about: >-
+      Oprogramowanie Linux/Mac z Best Torrents (RSS)
+    tags:
+      - name: Polish
+        color: dc143c
+      - name: Software
+      - name: Linux
+      - name: Mac
+    rssParser:
+      rssUrl: https://best-torrents.com/rss/kategoria/Linux/Mac
+      items: item
+      title:
+        query: title
+        attribute: text
+      magnetLink:
+        query: magnetURI
+        attribute: text
+      size:
+        query: size
+        attribute: text
+
+  - name: Best Torrents – Sport
+    version: 1
+    minVersion: '0.7'
+    website: https://best-torrents.com
+    about: >-
+      Sport z Best Torrents (RSS)
+    tags:
+      - name: Polish
+        color: dc143c
+      - name: Sports
+    rssParser:
+      rssUrl: https://best-torrents.com/rss/kategoria/Sport
+      items: item
+      title:
+        query: title
+        attribute: text
+      magnetLink:
+        query: magnetURI
+        attribute: text
+      size:
+        query: size
+        attribute: text
+
+  - name: Best Torrents – Anime
+    version: 1
+    minVersion: '0.7'
+    website: https://best-torrents.com
+    about: >-
+      Anime z Best Torrents (RSS)
+    tags:
+      - name: Polish
+        color: dc143c
+      - name: Anime
+    rssParser:
+      rssUrl: https://best-torrents.com/rss/kategoria/Anime
+      items: item
+      title:
+        query: title
+        attribute: text
+      magnetLink:
+        query: magnetURI
+        attribute: text
+      size:
+        query: size
+        attribute: text
+
+  - name: Best Torrents – GSM/PDA
+    version: 1
+    minVersion: '0.7'
+    website: https://best-torrents.com
+    about: >-
+      GSM/PDA z Best Torrents (RSS)
+    tags:
+      - name: Polish
+        color: dc143c
+      - name: Mobile
+    rssParser:
+      rssUrl: https://best-torrents.com/rss/kategoria/GSM/PDA
+      items: item
+      title:
+        query: title
+        attribute: text
+      magnetLink:
+        query: magnetURI
+        attribute: text
+      size:
+        query: size
+        attribute: text
+
+  - name: Best Torrents – Inne
+    version: 1
+    minVersion: '0.7'
+    website: https://best-torrents.com
+    about: >-
+      Inne z Best Torrents (RSS)
+    tags:
+      - name: Polish
+        color: dc143c
+      - name: Other
+    rssParser:
+      rssUrl: https://best-torrents.com/rss/kategoria/Inne
+      items: item
+      title:
+        query: title
+        attribute: text
+      magnetLink:
+        query: magnetURI
+        attribute: text
+      size:
+        query: size
+        attribute: text
